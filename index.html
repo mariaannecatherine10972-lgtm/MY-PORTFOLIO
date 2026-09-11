@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Anne | Gothic Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         LOADING SCREEN
+    ========================== -->
+
+    <div class="loader">
+        <div class="loader-text">ANNE</div>
+        <div class="loader-line"></div>
+        <div class="loader-sub">ENTERING THE DARK</div>
+    </div>
+
+
+    <!-- =========================
+         GLITTER BACKGROUND
+    ========================== -->
+
+    <div class="glitter-layer" aria-hidden="true">
+
+        <span class="spark s1"></span>
+        <span class="spark s2"></span>
+        <span class="spark s3"></span>
+        <span class="spark s4"></span>
+        <span class="spark s5"></span>
+        <span class="spark s6"></span>
+        <span class="spark s7"></span>
+        <span class="spark s8"></span>
+        <span class="spark s9"></span>
+        <span class="spark s10"></span>
+        <span class="spark s11"></span>
+        <span class="spark s12"></span>
+        <span class="spark s13"></span>
+        <span class="spark s14"></span>
+        <span class="spark s15"></span>
+        <span class="spark s16"></span>
+        <span class="spark s17"></span>
+        <span class="spark s18"></span>
+        <span class="spark s19"></span>
+        <span class="spark s20"></span>
+
+    </div>
+
+
+    <!-- =========================
+         GOTHIC HAND
+         Wednesday-inspired aesthetic
+    ========================== -->
+
+    <div class="gothic-hand" aria-hidden="true">
+
+        <div class="hand-aura"></div>
+
+        <svg viewBox="0 0 220 360">
+
+            <defs>
+
+                <linearGradient id="handInk"
+                    x1="0"
+                    y1="0"
+                    x2="1"
+                    y2="1">
+
+                    <stop offset="0" stop-color="#21172a"/>
+                    <stop offset=".45" stop-color="#09070b"/>
+                    <stop offset="1" stop-color="#321542"/>
+
+                </linearGradient>
+
+                <filter id="handGlow">
+
+                    <feGaussianBlur
+                        stdDeviation="2.5"
+                        result="blur"/>
+
+                    <feMerge>
+                        <feMergeNode in="blur"/>
+                        <feMergeNode in="SourceGraphic"/>
+                    </feMerge>
+
+                </filter>
+
+            </defs>
+
+
+            <g
+                class="hand-shape"
+                filter="url(#handGlow)"
+            >
+
+                <path
+                    fill="url(#handInk)"
+                    stroke="#bd9be8"
+                    stroke-opacity=".65"
+                    stroke-width="2"
+
+                    d="M91 343
+                    c-23-7-38-25-41-49
+                    c-3-25 3-48 14-69
+                    l16-31
+                    c5-10 13-15 20-12
+                    c7 3 8 11 5 20
+                    l-10 29
+                    l9 4
+                    l29-98
+                    c3-10 9-15 17-13
+                    c8 2 10 10 7 20
+                    l-23 91
+                    l10 3
+                    l28-103
+                    c3-10 10-15 17-12
+                    c8 2 10 10 7 21
+                    l-22 98
+                    l10 3
+                    l22-83
+                    c3-10 10-14 17-11
+                    c8 3 9 11 6 21
+                    l-19 84
+                    l9 3
+                    l14-55
+                    c3-10 9-14 16-11
+                    c7 3 8 10 6 19
+                    l-17 72
+                    c-7 31-23 53-48 65
+                    c-19 9-39 12-60 6z"
+                />
+
+                <path
+                    class="finger-line"
+                    d="M102 244l23-91"
+                />
+
+                <path
+                    class="finger-line"
+                    d="M128 252l25-105"
+                />
+
+                <path
+                    class="finger-line"
+                    d="M153 259l22-88"
+                />
+
+                <path
+                    class="finger-line"
+                    d="M176 270l17-62"
+                />
+
+                <path
+                    class="palm-line"
+                    d="M71 287c20-14 45-17 70-9
+                    c18 6 31 16 41 30"
+                />
+
+            </g>
+
+        </svg>
+
+        <span class="hand-label">
+            A HAND IN THE DARK
+        </span>
+
+    </div>
+
+
+    <!-- =========================
+         STARS + MOON + FOG
+    ========================== -->
+
+    <div class="stars"></div>
+
+    <div class="moon"></div>
+
+    <div class="moon-glow"></div>
+
+    <div class="fog fog1"></div>
+    <div class="fog fog2"></div>
+    <div class="fog fog3"></div>
+
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                A<span>.</span>
+            </div>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+
+                <li>
+                    <a href="#journey">Journey</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+            <div class="menu">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-orbit orbit1"></div>
+        <div class="hero-orbit orbit2"></div>
+
+        <div class="hero-content">
+
+            <p class="small-title">
+                WELCOME TO MY DARK SIDE
+            </p>
+
+            <h1>
+                ANNE
+            </h1>
+
+            <div class="line"></div>
+
+            <h2>
+                Dancer • Dreamer • Music Lover
+            </h2>
+
+            <p class="hero-description">
+                "A little mystery, a little madness,
+                and a whole lot of dreams."
+            </p>
+
+            <a href="#about" class="hero-btn">
+
+                ENTER MY WORLD
+
+                <span>↘</span>
+
+            </a>
+
+        </div>
+
+
+        <div class="scroll-indicator">
+
+            <span>SCROLL</span>
+
+            <div></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         ABOUT
+    ========================== -->
+
+    <section id="about" class="about section">
+
+        <div class="section-number">
+            01
+        </div>
+
+        <div class="about-container">
+
+
+            <div class="about-image">
+
+                <div class="image-frame">
+
+                    <div class="image-shine"></div>
+
+                    <div class="portrait-placeholder">
+
+                        <div class="portrait-glow"></div>
+
+                        <span>ANNE</span>
+
+                    </div>
+
+                </div>
+
+                <div class="image-caption">
+
+                    <span>
+                        EST. 2026
+                    </span>
+
+                    <span>
+                        THE MYSTERIOUS ONE
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="about-text">
+
+                <p class="section-label">
+                    WHO AM I?
+                </p>
+
+                <h2>
+                    A GIRL WITH
+                    <span>HER OWN STORY.</span>
+                </h2>
+
+                <p>
+                    Hello, I'm <strong>Anne</strong>.
+                    I am someone who enjoys expressing myself
+                    through movement, music and creativity.
+                </p>
+
+                <p>
+                    My journey started at
+                    <strong>MVM School</strong>,
+                    where I discovered new interests,
+                    built unforgettable memories
+                    and learned to dream bigger.
+                </p>
+
+                <p>
+                    I believe that every person has
+                    a unique story.
+                    Mine is still being written —
+                    one dance, one song and one dream
+                    at a time.
+                </p>
+
+
+                <div class="quote">
+
+                    <span>“</span>
+
+                    Stay strange.
+                    Stay curious.
+                    Stay yourself.
+
+                    <span>”</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SKILLS
+    ========================== -->
+
+    <section id="skills" class="skills section">
+
+        <div class="section-number">
+            02
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skills-heading">
+
+                <p class="section-label">
+                    MY TALENTS
+                </p>
+
+                <h2>
+                    THINGS I
+                    <span>LOVE.</span>
+                </h2>
+
+                <p>
+                    Creativity is not something
+                    I simply learn.
+                    It is something I feel.
+                </p>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+
+                <!-- DANCE -->
+
+                <div class="skill-card">
+
+                    <div class="card-number">
+                        01
+                    </div>
+
+                    <div class="skill-icon">
+                        ♩
+                    </div>
+
+                    <h3>
+                        DANCE
+                    </h3>
+
+                    <p>
+                        Movement is my way of expressing
+                        emotions, energy and stories
+                        without words.
+                    </p>
+
+                    <div class="card-line"></div>
+
+                    <div class="card-glow"></div>
+
+                </div>
+
+
+                <!-- MUSIC -->
+
+                <div class="skill-card">
+
+                    <div class="card-number">
+                        02
+                    </div>
+
+                    <div class="skill-icon">
+                        ♫
+                    </div>
+
+                    <h3>
+                        MUSIC
+                    </h3>
+
+                    <p>
+                        Music is my escape, my inspiration
+                        and the soundtrack to my imagination.
+                    </p>
+
+                    <div class="music-bars">
+
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+
+                    </div>
+
+                    <div class="card-line"></div>
+
+                    <div class="card-glow"></div>
+
+                </div>
+
+
+                <!-- CREATIVITY -->
+
+                <div class="skill-card">
+
+                    <div class="card-number">
+                        03
+                    </div>
+
+                    <div class="skill-icon">
+                        ✦
+                    </div>
+
+                    <h3>
+                        CREATIVITY
+                    </h3>
+
+                    <p>
+                        I love discovering unique ideas
+                        and turning imagination into
+                        something meaningful.
+                    </p>
+
+                    <div class="card-line"></div>
+
+                    <div class="card-glow"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         JOURNEY
+    ========================== -->
+
+    <section id="journey" class="journey section">
+
+        <div class="section-number">
+            03
+        </div>
+
+        <div class="journey-container">
+
+            <div class="journey-heading">
+
+                <p class="section-label">
+                    MY JOURNEY
+                </p>
+
+                <h2>
+                    WHERE IT
+                    <span>BEGAN.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="timeline">
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-content">
+
+                        <span>
+                            CHAPTER 01
+                        </span>
+
+                        <h3>
+                            MVM SCHOOL
+                        </h3>
+
+                        <p>
+                            The place where my journey began.
+                            School gave me experiences,
+                            friendships and countless memories.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-content">
+
+                        <span>
+                            CHAPTER 02
+                        </span>
+
+                        <h3>
+                            DISCOVERING DANCE
+                        </h3>
+
+                        <p>
+                            I discovered that dance could become
+                            more than a hobby — it could become
+                            a form of expression.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-content">
+
+                        <span>
+                            CHAPTER 03
+                        </span>
+
+                        <h3>
+                            FINDING MY SOUND
+                        </h3>
+
+                        <p>
+                            Music became another part of my world,
+                            helping me relax, imagine and create.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-content">
+
+                        <span>
+                            CHAPTER 04
+                        </span>
+
+                        <h3>
+                            THE FUTURE
+                        </h3>
+
+                        <p>
+                            My story is still being written.
+                            There are many more chapters waiting.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FAVORITES
+    ========================== -->
+
+    <section class="favorites section">
+
+        <div class="section-number">
+            04
+        </div>
+
+        <div class="favorites-content">
+
+            <p class="section-label">
+                INSIDE MY WORLD
+            </p>
+
+            <h2>
+                MY PERFECT
+                <span>MOOD.</span>
+            </h2>
+
+
+            <div class="mood">
+
+                <div>
+                    <span>01</span>
+                    <h3>Dark Nights</h3>
+                </div>
+
+                <div>
+                    <span>02</span>
+                    <h3>Good Music</h3>
+                </div>
+
+                <div>
+                    <span>03</span>
+                    <h3>Dancing</h3>
+                </div>
+
+                <div>
+                    <span>04</span>
+                    <h3>Quiet Moments</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section id="contact" class="contact section">
+
+        <div class="contact-content">
+
+            <p class="section-label">
+                FINAL CHAPTER
+            </p>
+
+            <h2>
+                LET'S CREATE
+                <span>SOMETHING UNIQUE.</span>
+            </h2>
+
+            <p>
+                Thank you for stepping into my world.
+            </p>
+
+            <a
+                href="mailto:anne@example.com"
+                class="contact-btn"
+            >
+
+                SAY HELLO
+
+                <span>↗</span>
+
+            </a>
+
+        </div>
+
+
+        <div class="contact-symbol">
+            A
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div>
+            © 2026 ANNE
+        </div>
+
+        <div>
+            MVM SCHOOL • DANCE • MUSIC
+        </div>
+
+        <div>
+            MADE WITH ✦ CREATIVITY
+        </div>
+
+    </footer>
+
+
+    <!-- CUSTOM CURSOR -->
+
+    <div class="cursor"></div>
+
+
+</body>
+</html>
